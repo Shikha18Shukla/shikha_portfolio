@@ -1,4 +1,4 @@
-# Shikha SHukla's Professional Full-Stack Portfolio
+# Shikha Shukla's Professional Full-Stack Portfolio
 
 This repository hosts the source code for my professional portfolio website, a comprehensive digital resume built as a full-stack application. It is designed not only to present my work and experience but also to serve as a demonstrative example of my technical abilities across the entire web development stack.
 
