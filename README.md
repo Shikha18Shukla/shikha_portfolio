@@ -23,7 +23,7 @@ This repository hosts the source code for my professional portfolio website, a c
 ### Backend (Server)
 
 * **Runtime:** Node.js
-* **Framework:** Express
+* **Framework:** Express.js
 * **Language:** TypeScript
 * **Database:** [e.g., PostgreSQL, SQLite]
 * **ORM:** Drizzle
