@@ -134,7 +134,8 @@ npm run dev
 
 # 📸 Preview
 
-> Add screenshots or a GIF here after deployment.
+<img width="1337" height="632" alt="Screenshot 2026-07-28 112847" src="https://github.com/user-attachments/assets/f774c246-1127-4a3b-8d8d-3d52140ed35d" />
+
 
 ---
 
