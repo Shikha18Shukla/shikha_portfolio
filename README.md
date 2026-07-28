@@ -1,55 +1,171 @@
-# Shikha Shukla — Portfolio
+<div align="center">
 
-A from-scratch, production-ready personal portfolio: a React/TypeScript/Tailwind
-frontend and an Express/PostgreSQL backend for the contact form.
+# 👩‍💻 Shikha Shukla Portfolio
 
+### Software Engineer • AI/ML Enthusiast • Open Source Contributor
+
+A modern, responsive developer portfolio showcasing my projects, technical skills, open source contributions, and professional journey.
+
+🌐 **Live Demo:** Coming Soon
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Shikha18Shukla/My_portfolio?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Shikha18Shukla/My_portfolio?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Shikha18Shukla/My_portfolio?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Shikha18Shukla/My_portfolio?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+</div>
+
+---
+
+# ✨ Overview
+
+This repository contains the source code for my personal developer portfolio.
+
+The portfolio highlights my experience as a Computer Science student passionate about Software Engineering, Artificial Intelligence, Machine Learning, and Open Source. It serves as a central place to explore my projects, technical skills, GitHub contributions, and contact information.
+
+---
+
+# 🚀 Features
+
+- 💻 Modern terminal-inspired UI
+- 📱 Fully responsive design
+- 🌙 Dark theme
+- ⚡ Fast Vite + React application
+- 🎯 Smooth scrolling navigation
+- 📂 Project showcase
+- 🧠 Technical skills section
+- 🌍 Open Source contributions
+- 📫 Contact section
+- 📄 Resume download
+- 🔗 Social media links
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React
+- TypeScript
+- Vite
+- CSS
+
+## Backend
+
+- Node.js
+- Express.js
+- PostgreSQL
+- Drizzle ORM
+
+---
+
+# 📂 Project Structure
+
+```text
+My_portfolio/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   ├── drizzle/
+│   └── package.json
+│
+└── README.md
 ```
-portfolio/
-├── frontend/     React + TypeScript + Tailwind CSS v4 + Framer Motion
-└── backend/      Express + Drizzle ORM + PostgreSQL (contact form API)
-```
 
-Each folder is a standalone project with its own `package.json`, `README.md`,
-and `.env.example` — see `frontend/README.md` and `backend/README.md` for
-full setup and deployment steps.
+---
 
-## Quickstart
+# ⚙️ Getting Started
+
+## Clone the repository
 
 ```bash
-# Terminal 1 — backend
-cd backend
-cp .env.example .env    # set DATABASE_URL
-npm install
-npm run db:generate && npm run db:migrate
-npm run dev              # http://localhost:4000
-
-# Terminal 2 — frontend
-cd frontend
-cp .env.example .env
-npm install
-npm run dev               # http://localhost:5173
+git clone https://github.com/Shikha18Shukla/My_portfolio.git
 ```
 
-## What's included
+Move into the project
 
-- **10 sections**: Hero, About, Skills, Experience, Projects (filterable by
-  category), Open Source contributions (merged PRs across ELUSoC/GSSOC),
-  Coding Profiles, Certifications, Contact (wired to a real backend), Footer.
-- **Design**: dark-mode-first, near-black surfaces, a restrained indigo→violet
-  accent, and a terminal/code-editor visual language (monospace section labels,
-  a typed hero sequence, a "merged" PR feed) that's grounded in the fact that
-  this is a developer's site — not a generic gradient landing page.
-- **Engineering**: TypeScript throughout, path aliases (`@/`), content
-  separated into `src/data/*.ts` so updates don't require touching components,
-  accessible focus states, `prefers-reduced-motion` support, responsive down
-  to mobile, SEO metadata + OpenGraph + `robots.txt` + `sitemap.xml`.
-- **Contact form**: validates with Zod, rate-limits by IP, persists to
-  Postgres via Drizzle, and optionally emails a notification — all through a
-  real API, not a mailto: link.
+```bash
+cd My_portfolio
+```
 
-## Before you deploy
+### Frontend
 
-- [ ] Add `resume.pdf` and `og-image.png` to `frontend/public/` (see `ASSETS_README.txt` there)
-- [ ] Update the canonical URL in `frontend/index.html` once you have a domain
-- [ ] Provision a Postgres database and run migrations (`backend/README.md`)
-- [ ] Set `VITE_API_URL` (frontend) and `CORS_ORIGIN` (backend) to match your real deployed URLs
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend runs at
+
+```
+http://localhost:5173
+```
+
+---
+
+### Backend
+
+Create a `.env` file using `.env.example`.
+
+Example:
+
+```env
+DATABASE_URL=your_postgresql_database_url
+PORT=4000
+CORS_ORIGIN=http://localhost:5173
+```
+
+Install dependencies
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+---
+
+# 📸 Preview
+
+> Add screenshots or a GIF here after deployment.
+
+---
+
+# 📬 Connect With Me
+
+**Portfolio** *(Coming Soon)*
+
+**GitHub**
+
+https://github.com/Shikha18Shukla
+
+**LinkedIn**
+
+https://www.linkedin.com/in/shikha-shukla18/
+
+**LeetCode**
+
+https://leetcode.com/u/Shikha_Shukla19/
+
+---
+
+# ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover my work and motivates me to build more open source projects.
+
+---
+
+<div align="center">
+
+Made with ❤️ by **Shikha Shukla**
+
+</div>
